@@ -40,7 +40,7 @@ def data():
         output = 'Person is not diabetic'
         
 
-   return render_template('result.html',predict=output)
+   return render_template('result.html',predict = output)
    
 
 
